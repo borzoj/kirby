@@ -1,6 +1,6 @@
 {
-  "name": "getkirby/kirby",
-  "description": "The Kirby 2 core.",
+  "name": "borzoj/kirby",
+  "description": "Fork! The Kirby 2 core.",
   "keywords": ["core", "kirby", "cms"],
   "homepage": "https://getkirby.com",
   "license": "proprietary",
@@ -13,9 +13,9 @@
   ],
   "support": {
     "email": "support@getkirby.com",
-    "issues": "https://github.com/getkirby/kirby/issues",
+    "issues": "https://github.com/borzoj/kirby/issues",
     "forum": "https://forum.getkirby.com",
-    "source": "https://github.com/getkirby/kirby"
+    "source": "https://github.com/borzoj/kirby"
   },
   "autoload": {
     "files": ["composer.php"]
@@ -27,7 +27,7 @@
     "erusev/parsedown": "1.7.1",
     "erusev/parsedown-extra": "0.7.1",
     "michelf/php-smartypants": "1.8.1",
-    "getkirby/toolkit": "2.5.14",
+    "borzoj/toolkit": "2.5.15",
     "filp/whoops": "2.1.14"
   },
   "archive": {
@@ -39,5 +39,11 @@
       "/test",
       "/vendor"
     ]
-  }
+  },
+  "repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/borzoj/toolkit"
+    }
+  ]
 }
