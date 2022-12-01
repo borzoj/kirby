@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     'e0979110f3e762e990da2047b0a58825' => $vendorDir . '/borzoj/toolkit/bootstrap.php',
     '0a612b6319fb3f818bcd7895418d77e6' => $baseDir . '/composer.php',
 );
